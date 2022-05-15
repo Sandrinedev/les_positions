@@ -1,0 +1,24 @@
+/* /* désigne tous les éléments de la page/* */
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+/* / La position absolute permet de déplacer l'élément / */
+#un {
+    background-color: #ff0000;
+    aspect-ratio: 1;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+/* / La position absolute permet à l'enfant de se déplacer sur le parent */ */
+#deux {
+    background-color: #ffff00;
+    aspect-ratio: 1;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
